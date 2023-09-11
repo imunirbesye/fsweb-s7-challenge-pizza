@@ -1,7 +1,6 @@
 import React, {StrictMode} from "react";
 import {Link} from 'react-router-dom'; 
-import SiparisOlustur from './SiparisOlustur.js';
-import PizzaTamR from '../Assets/adv-aseets/food-2.png';
+
 import './Home.css';
 
 const Home = () => {

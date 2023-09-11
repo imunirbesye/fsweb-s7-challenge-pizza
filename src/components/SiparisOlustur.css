@@ -15,17 +15,20 @@ header .container {
     width: 500px; 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
 }
 header h1 {
     margin-top:7%;
     color:#fff;
 }
-span {
+header span {
     color: white; 
     align-self: flex-start;
     margin-top:5%;
     margin-bottom: 2%;
+}
+.acik-sayfa {
+    font-weight: bold;
 }
 .content {
     width: 100%; 
@@ -35,7 +38,7 @@ span {
     align-items: center;
 }
 .content .container {
-    width: 500px;
+    max-width: 500px;
     display:flex;
     flex-direction: column;
 }
@@ -176,7 +179,7 @@ span {
     flex-direction: row;
     justify-content: space-between;
 }
-.siparis-toplam-bilgi input {
+#order-button {
     width: 100%;
     padding: 5% 0;
     background: #FDC913;
