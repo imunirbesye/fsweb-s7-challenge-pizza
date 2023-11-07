@@ -73,7 +73,9 @@ const SiparisOlustur = () => {
         setSiparis({...siparis, toplamTutar: (siparis.pizzaFiyat*siparis.pizzaAdet)+(ekMalzemeler.length*5)});
     }
   
-    const handleSubmit = () => {   
+    const handleSubmit = (e) => {   
+        e.preventDefault();
+
         axios
             .post("https://reqres.in/api/users", JSON.stringify(siparis))
             .then(res => {
